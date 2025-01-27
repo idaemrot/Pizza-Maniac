@@ -1,4 +1,4 @@
-Live Demo Link : [https://hcl-hack.vercel.app](https://pizza-maniac.vercel.app/)
+Live Demo Link : [https://pizza-maniac.vercel.app/](https://pizza-maniac.vercel.app/)
 
 # 🍕 Retail Food Ordering Portal — MVP
 
@@ -35,6 +35,89 @@ NEW → PROCESSING → DELIVERED
 - Update order status
 
 ---
+## 🏗 Architecture
+```
+Pizza-Maniac
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── pnpm-lock.yaml
+├── README.md
+│
+├── backend
+│   ├── .env
+│   ├── .gitignore
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── tsconfig.json
+│   └── src
+│       ├── server.ts
+│       ├── config
+│       │   └── db.ts
+│       ├── middleware
+│       │   └── auth.ts
+│       ├── models
+│       │   ├── Cart.ts
+│       │   ├── Order.ts
+│       │   ├── Product.ts
+│       │   └── User.ts
+│       └── routes
+│           ├── auth.ts
+│           ├── cart.ts
+│           ├── dashboard.ts
+│           ├── order.ts
+│           └── product.ts
+│
+└── frontend
+    ├── .gitignore
+    ├── components.json
+    ├── eslint.config.js
+    ├── index.html
+    ├── package.json
+    ├── package-lock.json
+    ├── postcss.config.js
+    ├── tailwind.config.ts
+    ├── tsconfig.json
+    ├── tsconfig.app.json
+    ├── tsconfig.node.json
+    ├── vercel.json
+    ├── vite.config.ts
+    └── src
+        ├── main.tsx
+        ├── App.tsx
+        ├── App.css
+        ├── globals.css
+        ├── vite-env.d.ts
+        ├── components
+        │   ├── AdminDashboardLayout.tsx
+        │   ├── ProtectedRoute.tsx
+        │   ├── UserDashboardLayout.tsx
+        │   └── ui
+        │       └── (UI components files)
+        ├── context
+        │   └── AuthContext.tsx
+        ├── hooks
+        │   └── use-mobile.tsx
+        ├── lib
+        │   ├── api.ts
+        │   └── utils.ts
+        └── pages
+            ├── Index.tsx
+            ├── LoginPage.tsx
+            ├── RegisterPage.tsx
+            ├── NotFound.tsx
+            ├── Admin
+            │   ├── DashboardPage.tsx
+            │   ├── OrderManagerPage.tsx
+            │   └── ProductManagerPage.tsx
+            └── User
+                ├── CartPage.tsx
+                ├── MenuPage.tsx
+                └── MyOrdersPage.tsx
+
+
+
+```
 
 ## 🗄️ Database Design (MongoDB)
 

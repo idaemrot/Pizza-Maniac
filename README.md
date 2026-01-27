@@ -155,3 +155,124 @@ Build a clean, scalable, and explainable MVP that demonstrates:
 - Enterprise-style architecture
 - Secure and maintainable APIs
 - Hackathon-ready implementation
+
+---
+
+## ⚙️ Installation & Setup
+
+Steps to run the **Pizza-Maniac** MERN stack project locally.
+
+---
+
+### 📌 Prerequisites
+
+```
+Node.js (v16+)
+npm or yarn
+MongoDB (Local / Atlas)
+Git
+```
+
+---
+
+### 📥 Clone Repository
+
+```
+git clone https://github.com/idaemrot/Pizza-Maniac.git
+cd Pizza-Maniac
+```
+
+---
+
+### 🧩 Backend Setup
+
+```
+cd backend
+npm install
+```
+
+Create a `.env` file inside the `backend` directory:
+
+```
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+```
+
+Start backend server:
+
+```
+npm start
+```
+
+or (development mode)
+
+```
+npm run dev
+```
+
+Backend runs on:
+
+```
+http://localhost:5000
+```
+
+---
+
+### 🎨 Frontend Setup
+
+```
+cd frontend
+npm install
+npm start or npm run dev
+```
+
+Frontend runs on:
+
+```
+http://localhost:3000
+```
+
+---
+
+### 🔗 Frontend–Backend Connection
+
+```
+Frontend → http://localhost:3000
+Backend  → http://localhost:5000
+```
+
+Ensure frontend API base URL points to the backend server.
+
+---
+
+### ✅ Running the Application
+
+```
+1. Start MongoDB
+2. Run Backend Server
+3. Run Frontend Server
+4. Open http://localhost:3000
+```
+
+---
+
+### 🧱 Tech Stack Used
+
+```
+Frontend : React.js, Tailwind CSS
+Backend  : Node.js, Express.js
+Database : MongoDB
+Auth     : JWT
+```
+
+---
+
+
+
+
+
+
+
+
+

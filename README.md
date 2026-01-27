@@ -230,7 +230,7 @@ npm start or npm run dev
 Frontend runs on:
 
 ```
-http://localhost:3000
+http://localhost:8080
 ```
 
 ---
@@ -238,7 +238,7 @@ http://localhost:3000
 ### 🔗 Frontend–Backend Connection
 
 ```
-Frontend → http://localhost:3000
+Frontend → http://localhost:8080
 Backend  → http://localhost:5000
 ```
 

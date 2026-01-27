@@ -1,4 +1,4 @@
-Live Demo Link : https://hcl-hack.vercel.app/login
+Live Demo Link : [https://hcl-hack.vercel.app](https://pizza-maniac.vercel.app/)
 
 # 🍕 Retail Food Ordering Portal — MVP
 

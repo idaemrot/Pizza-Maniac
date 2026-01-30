@@ -127,7 +127,14 @@ const Index = () => {
       {/* Footer */}
       <footer className="bg-gray-800 text-white py-8 px-6 text-center rounded-t-xl">
         <p className="text-sm">&copy; {new Date().getFullYear()} Pizza Maniac. All rights reserved.</p>
-        <p className="text-xs mt-2">Made with passion for pizza lovers.</p>
+        <a
+          className="text-xs mt-2 text-blue-500 hover:underline"
+          href="https://github.com/idaemrot/Pizza-Maniac"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
       </footer>
     </div>
   );

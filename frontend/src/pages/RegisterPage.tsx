@@ -42,7 +42,7 @@ const RegisterPage = () => {
               <Input
                 id="name"
                 type="text"
-                placeholder="John Doe"
+                placeholder="Enter your full name"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 required
@@ -74,11 +74,11 @@ const RegisterPage = () => {
               />
             </div>
             <div>
-              <Label htmlFor="address" className="text-sm font-medium text-gray-700">Address (Optional)</Label>
+              <Label htmlFor="address" className="text-sm font-medium text-gray-700">Address</Label>
               <Input
                 id="address"
                 type="text"
-                placeholder="123 Main St"
+                placeholder="Enter your address"
                 value={address}
                 onChange={(e) => setAddress(e.target.value)}
                 className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:ring-indigo-500 focus:border-indigo-500"

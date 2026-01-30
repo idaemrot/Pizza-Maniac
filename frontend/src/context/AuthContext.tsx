@@ -47,7 +47,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
   const logout = () => {
     setToken(null);
     setUser(null);
-    navigate('/login');
+    navigate('/');
   };
 
   const isAuthenticated = !!token && !!user;

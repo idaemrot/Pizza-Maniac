@@ -238,6 +238,7 @@ Build a clean, scalable, and explainable MVP that demonstrates:
 - Enterprise-style architecture
 - Secure and maintainable APIs
 - Hackathon-ready implementation
+- Appealing UI
 
 ---
 
